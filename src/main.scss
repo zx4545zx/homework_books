@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    height: 500px;
+  
+    .cards {
+      padding: 0.5rem;
+      max-width: auto;
+      text-align: center;
+      height: 21.875rem;
+  
+      img {
+        width: 6.25rem;
+        height: 8.75rem;
+        margin: 0 auto;
+      }
+  
+      .books-info {
+        height: 11rem;
+        margin: auto;
+  
+        .Title_books {
+          padding: 1rem 0;
+          font-weight: bold;
+          cursor: pointer;
+        }
+  
+        .Authors_books {
+          padding-bottom: 1rem;
+        }
+  
+        .Format_books {
+          color: lightgrey;
+        }
+      }
+    }
+  }
+  

@@ -5,9 +5,6 @@ import './main.scss'
 document.addEventListener('DOMContentLoaded', function () {
     const cards = document.getElementById('card')
     const books = booksCollection.data
-    console.log(booksCollection);
-    console.log(books[0]);
-    console.log(books[0].Authors);
 
     books.forEach(book => {
         let cardDOM = buildCardDOM(book)

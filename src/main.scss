@@ -4,14 +4,13 @@
   
   .card {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    height: 500px;
+    grid-template-columns: repeat(5, 18.8rem);
   
     .cards {
       padding: 0.5rem;
       max-width: auto;
       text-align: center;
-      height: 21.875rem;
+      border: 1px solid grey;
   
       img {
         width: 6.25rem;
